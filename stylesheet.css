@@ -1,19 +1,52 @@
 h1{
 text-align: center;
 color:white;
-background-color: rgb(2, 2, 90);
+background-color: rgb(13, 10, 59);
+margin-top: 0px;
 
 }
 header{
 text-align: center;
 }
-h2{
-    color: rgb(2, 2, 90);
-}
+
 p{
     font-size: 18px;
     color:gray;
 }
+.boldline {
+height: 4px;
+background-color: black;
+border: none;
+}
 hr{
-    outline-style:solid;
+height: 2px;
+background-color: black;
+border: none;
+
+}
+input[type=text],input[type=tel],select{
+  padding: 14px 100px;
+  margin: 8px 0;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100px;
+  background-color: whitesmoke;
+  border: none;
+}
+#name{
+text-align: right;
+}
+input[type=number]{
+
+  padding: 14px 20px;
+  margin: 8px 0;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100px;
+  background-color: whitesmoke;
+  border: none;
+}
+#address:focus {
+  background-color:whitesmoke;
+      border-color: rgb(18, 18, 117);
 }
