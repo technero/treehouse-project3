@@ -1,5 +1,7 @@
 body {
   margin: 0;
+  font-family: 'Lora', serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
@@ -64,6 +66,17 @@ legend {
   gap: 10px;
 }
 
+input, textarea, select {
+  outline-color: transparent;
+  box-sizing: border-box;
+  -webkit-transition: outline-color 1s ease-out;
+  -moz-transition: outline-color 1s ease-out;
+  -ms-transition: outline-color 1s ease-out;
+  -o-transition: outline-color 1s ease-out;
+  transition: outline-color 1s ease-out;
+  background-color: whitesmoke;
+}
+
 input[type="radio"],input[type="checkbox"] {
   margin-bottom: 15px;
 }
@@ -72,7 +85,6 @@ input[type="text"],input[type="tel"], input[type="email"],#state {
   padding: 14px;
   border-radius: 4px;
   cursor: pointer;
-  background-color: whitesmoke;
   border: none;
 }
 
@@ -84,13 +96,15 @@ input[type="number"] {
   border-radius: 4px;
   cursor: pointer;
   width: 100px;
-  background-color: whitesmoke;
   border: none;
 }
 
 input:focus, select:focus, textarea:focus {
-  background-color:whitesmoke;
   outline-color: rgb(18, 18, 117);
+}
+
+#code{
+ width:50%;
 }
 
 select { color: gray; }
@@ -99,11 +113,9 @@ select { color: gray; }
   margin: auto;
   border-radius: 4px;
   cursor: pointer;
-  background-color: whitesmoke;
   border: none;
   width: 100%;
   padding: 10px;
-  box-sizing: border-box;
 }
 
 input[type="button"] {
@@ -122,8 +134,9 @@ input[type="button"] {
 footer {
   font-size: 14px;
   text-align: center;
-  color: gray;
+  color: white;
   margin-bottom: 50px;
+  background-color: #625f7c;
 }
 
 @media screen and (min-width:768px) {
@@ -147,6 +160,10 @@ input,select {
 
 label {
   min-width: 100px;
+}
+
+#code{
+ max-width:25%;
 }
 }
 
