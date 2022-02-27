@@ -88,9 +88,9 @@ input[type=number] {
   border: none;
 }
 
-#address:focus {
+input:focus, select:focus, textarea:focus {
   background-color:whitesmoke;
-  border-color: rgb(18, 18, 117);
+  outline-color: rgb(18, 18, 117);
 }
 
 select { color: gray; }
