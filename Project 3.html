@@ -26,15 +26,15 @@
               <legend>Contact Information</legend>
               <div class="field">
                 <label for="name">Full Name</label>
-                <input type=text id="name" name="name" placeholder="Required">
+                <input type="text" id="name" name="name" placeholder="Required">
               </div>
               <div class="field">
                 <label for="email">Email address</label>
-                <input type=text id="email" name="email" placeholder="Required">
+                <input type="email" id="email" name="email" placeholder="Required">
               </div>
               <div class="field">
                 <label for="phone">Phone number</label>
-                <input type=tel id="phone" name="phone">
+                <input type="tel" id="phone" name="phone">
               </div>
               <div class="field">
                 <label for="address">Street Address</label>
@@ -71,10 +71,12 @@
               <label for="news-javascript">Javascript News</label>
 
               <p>Newsletter format</p>
-              <input type="radio" id="format-html" name="format-html" value="html-format">
-              <label for="format-html">HTML</label><br>
-              <input type="radio" id="format-text" name="format-text" value="text-format">
-              <label for="format-text">Plain text</label>
+              <div id="format-type">
+                <input type="radio" id="format-html" name="format-type" value="html-format">
+                <label for="format-html">HTML</label><br>
+                <input type="radio" id="format-text" name="format-type" value="text-format">
+                <label for="format-text">Plain text</label>
+              </div>
               <p>Other topics you'd like to hear about</p>
               <textarea id="other-topics" name="topics" rows="6"></textarea>
 

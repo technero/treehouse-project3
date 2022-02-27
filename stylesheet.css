@@ -68,7 +68,7 @@ input[type="radio"],input[type="checkbox"] {
   margin-bottom: 15px;
 }
 
-input[type=text],input[type=tel],#state {
+input[type="text"],input[type="tel"], input[type="email"],#state {
   padding: 14px;
   border-radius: 4px;
   cursor: pointer;
@@ -78,7 +78,7 @@ input[type=text],input[type=tel],#state {
 
 ::-webkit-input-placeholder { text-align:right; }
 
-input[type=number] {
+input[type="number"] {
   padding: 14px 20px;
   margin: 8px 0;
   border-radius: 4px;
@@ -102,9 +102,11 @@ select { color: gray; }
   background-color: whitesmoke;
   border: none;
   width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
-input[type=button] {
+input[type="button"] {
   margin: 30px auto;
   border-radius: 4px;
   cursor: pointer;
