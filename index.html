@@ -65,7 +65,7 @@
               </div>
               <div class="field">
                 <label for="code">Zipcode</label>
-                <input type="number" id="code" name="code">
+                <input type="text" id="code" name="code" placeholder="Required" required>
               </div>
             </fieldset>
           </div>
@@ -88,9 +88,10 @@
                 <input type="radio" id="format-text" name="format-type" value="text-format">
                 <label for="format-text">Plain text</label>
               </div>
-              <p>Other topics you'd like to hear about</p>
+              <label for="other-topics">
+                <p>Other topics you'd like to hear about</p>
+              </label>
               <textarea id="other-topics" name="topics" placeholder="Required" required rows="6"></textarea>
-
               <input type="button" value="Sign Up">
             </fieldset>
           </div>
